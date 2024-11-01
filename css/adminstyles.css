@@ -1,0 +1,282 @@
+.Settings-wrap {
+    width: 745px;
+	font: 12px "Lucida Grande", Verdana, sans-serif;
+}
+
+.info-box {
+    background: url( "../images/info_bg.png" ) no-repeat scroll left top transparent;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    height: 85px;
+    margin: 5px 5px 14px 0;
+    padding: 15px 15px 12px;
+    width: 715px;
+	color: #1e3950;
+}
+
+.info-content {
+	background: url( "../images/info_icon.png" ) no-repeat scroll left top transparent;
+	padding-left: 27px;
+    padding-top: 2px;	
+	height: 70px;
+}
+
+.Owner {
+	font-weight: bold;
+	color: #1e3950;
+	float: right;
+}
+
+.Owner a {
+	text-decoration: underline;
+	color: #1e3950;
+	font-weight: bold;
+}
+
+.settings-header {
+    background: #FFFFFF;
+    float: left;
+    *height: 29px;
+    line-height: normal;
+    width: 100%;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.settings-header ul {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.settings-header li {
+    background: url( "../images/left.gif" ) no-repeat scroll left top #FFFFFF;
+    float: left;
+    margin: 0 0 -1px;
+    padding: 0 0 0 9px;
+    position: relative;
+    z-index: 10;
+}
+
+.settings-header ul li span {
+    background: url( "../images/right.gif" ) no-repeat scroll right top transparent;
+    color: #000000;
+    display: block;
+    float: left;
+    font-weight: bold;
+    /* padding: 6px 15px 8px 6px;*/ 	/*Please Include this line also, it's a backup */
+	padding: 7px 19px 11px 6px;
+	*padding: 7px 19px 7px 6px;
+    text-decoration: none;
+	font-size: 13px;
+}
+
+.settings-header ul li span {
+    float: none;
+}
+
+.settings-help {
+    color: #A7A7A7;
+    font-size: 11px;
+}
+
+.update-send-buttons {
+    float: right;
+}
+
+.Send-btn {
+	background: url( "../images/btn-left.png" ) no-repeat scroll left top transparent;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 9px;
+}
+
+.Send-btn a {
+	background: url( "../images/btn-right.png" ) no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding: 5px 15px 7px 6px;
+    text-decoration: none;
+}
+
+.delete {
+	background: url( "../images/btn-left.png" ) no-repeat scroll left top transparent;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 9px;
+}
+
+.delete a {
+	background: url( "../images/btn-right.png" ) no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding: 5px 15px 7px 6px;
+    text-decoration: none;
+}
+
+.delete a span {
+	background: url( "../images/delete.gif" ) no-repeat scroll left top transparent;
+    margin: 0;
+    padding: 0 0 0 19px;
+}
+
+.update-settings-btn {
+	float: left;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.settings-container {
+    border: 1px solid #D8D8D8;
+	border-top: none;
+	float: left;
+	padding: 14px;
+	margin-bottom: 9px;
+	width: 715px;
+}
+
+.settings-help {
+    float: left;
+    font-size: 11px;
+    line-height: 22px;
+    width: 270px;
+	margin-left: 15px;
+}
+
+.settings-container h3 {
+    border-bottom: 1px solid #E7E7E7;
+    float: left;
+    font-size: 1.1em;
+    margin: 10px 0;
+    padding: 7px 0;
+    width: 100%;
+}
+
+.Settings-wrap textarea {
+	width: 406px;
+	height: 165px;
+	border-color: #CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+	border-radius: 4px 4px 4px 4px;
+	background: #FAFAFA;
+	padding: 5px;
+	overflow: auto;
+}
+
+.Settings-wrap input[type="text"]{
+    border: 1px solid #CCCCCC;
+	border-radius: 4px 4px 4px 4px;
+	background: #FAFAFA;
+	padding: 3px !important;
+	float: left;
+	/*margin: 2px 0 0 17px !important;*/
+}
+
+.set-input {
+	margin: 2px 12px 0 17px !important;
+}
+
+.Settings-wrap select {
+    border: 1px solid #CCCCCC;
+	border-radius: 4px 4px 4px 4px;
+	background: #FAFAFA;
+	padding: 3px !important;
+	/*margin: 2px 0 0 17px !important;*/
+}
+
+.Settings-wrap textarea:focus, .Settings-wrap textarea:hover, .Settings-wrap input[type="text"]:focus, .Settings-wrap input[type="text"]:hover, .Settings-wrap select:hover {
+	background:#FFFFFF;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    vertical-align: top !important;
+}
+
+label {
+	width: auto !important;
+	margin: 5px 0 0;
+	display: block;
+    float: left;
+    padding: 0;
+    text-align: left;
+}
+
+.fields {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 422px;
+}
+
+.radio-list {
+	margin: 4px 0 0 24px;
+	float: left;
+}
+
+.small {
+	width: 200px;
+}
+
+.logo {
+	padding: 12px 0 5px 0;
+}
+
+.attach-job-specific, .clock-job-specific, .error-job-specific, .idea-job-specific {
+	background-color: transparent;
+	background-image: url( "../images/work-sprites2.png" );
+	background-repeat: no-repeat;
+}
+
+.attach-job-specific {
+	background-position: 1px -95px;
+	height: 32px;
+	width: 32px;
+}
+
+.error-job-specific {
+	background-position: -36px -95px;
+	height: 32px;
+	width: 32px;
+}
+
+.idea-job-specific {
+	background-position: -73px -95px;
+	height: 32px;
+	width: 32px;
+}
+
+.clock-job-specific {
+	background-position: -109px -95px;
+	height: 32px;
+	width: 32px;
+}
+#tasks_items {list-style: none;}
+
+.baseformadmin{
+    padding-top:15px;
+}
+.baseformadmin .row{
+    margin-bottom:5px;
+    clear:both;
+}
+.baseformadmin .row:after{
+    content:" ";
+    display:block;
+    clear:both;
+}
+.baseformadmin .row label{
+    float:left;
+    width:150px !important;
+    font-weight:600;
+}
+.baseformadmin .row textarea{
+    width:100%;
+    height:150px;
+}
+.baseformadmin .row .desc{
+    margin-left:150px;
+}
